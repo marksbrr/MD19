@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+@import './assets/libs/quiz-style.scss';
+
+
+body {
+  background-color: rgb(238, 238, 238);
+  font-family: 'Roboto', sans-serif;
+}
+
+.main__header {
+  display: grid;
+  grid-template-rows: auto;
+  justify-content: center;
+  grid-gap: 50px; 
+}
+
+.header__options {
+  text-decoration: none;
+  display: grid;
+  grid-template-rows: auto;
+  justify-content: center;
+  color: #000000;
+  font-size: 22px;
+
+  &:hover {
+    color: green;
+
+  }
+}
+
